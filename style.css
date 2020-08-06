@@ -1,0 +1,76 @@
+
+body{
+    background: url(Wallpaper/Default.jpg) no-repeat center center /*fixed*/;
+    background-size: cover;
+    /*background-image:url("Wallpaper/Default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 568px;*/
+    box-sizing: border-box;
+    height:568px;
+}
+/*.homepage{
+
+}*/
+img{
+    width:170px;
+    float: left;
+    border-radius: 50px;
+}
+
+img::after{
+    content:"";
+    clear:both;
+    display: inline-block;
+}
+
+div{
+    text-align:center;
+    /*width:320px;*/
+}
+
+img{
+    margin-top:120px;
+    margin-left: 55px;
+}
+
+@media (max-width:320px){
+    img{width: 50px;
+        margin-left: 20px;
+        margin-top:40px;
+        border-radius:15px;}
+    body{
+        height:568px;
+    }
+}
+
+@media (min-width:414px){
+    img{width: 60px;
+        margin-left: 30px;
+        margin-top:40px;
+        border-radius:15px;}
+    body{
+        height:736px;
+    }
+
+}
+
+@media (min-width: 768px){
+    img{width: 120px;
+        margin-left: 50px;
+        margin-top:50px;
+        border-radius:15px;}
+    body{
+        height:1024px;
+    }
+}
+
+    }
+}
+
+}
+
+/*.test{
+    width:300px;
+}*/
